@@ -41,7 +41,6 @@ public class MaceItemMixin {
 				Vec3 vel = player.getDeltaMovement();
 				double launchPower = 1.1 + (level * 0.45);
 				player.setDeltaMovement(vel.x, launchPower, vel.z);
-				player.hurtMarked = true;
 			}
 		}
 	}

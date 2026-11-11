@@ -28,7 +28,7 @@ public class RoeiMod implements ClientModInitializer {
 		});
 
 		// רישום מקש O בתפריט המקשים של המשחק
-		toggleKey = KeyMappingHelper.registerKeyBinding(new KeyMapping(
+		toggleKey = KeyMappingHelper.registerKeyMapping(new KeyMapping(
 				"key.roei_mod.toggle",
 				InputConstants.Type.KEYBOARD,
 				InputConstants.KEY_O,
